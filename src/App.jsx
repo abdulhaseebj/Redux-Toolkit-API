@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Routerconfig from './config/routerconfig/Routerconfig'
 
 const App = () => {
+  
   return (
-    <div>App</div>
+    <Routerconfig/>
+
   )
 }
 
